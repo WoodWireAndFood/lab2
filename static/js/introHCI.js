@@ -11,7 +11,7 @@ function initializePage() {
 
 function projectClick(e) {
     e.preventDefault();
-    if ($(this.css("background-color") == "#7fff00")) {
+    if ($(this).css("background-color") == "#7fff00") {
         $(this).css("background-color", "#ffffff");
     }
     else {
